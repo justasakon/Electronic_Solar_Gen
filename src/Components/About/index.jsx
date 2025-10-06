@@ -18,7 +18,10 @@ const About = () => {
                     Turning your <span className='g-text'>vission</span> into reality by focusing on the basics 
                 </h1>
                 <p className="text_muted description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam facere natus aliquid provident sunt vero voluptate unde mollitia dolores? Qui hic eligendi illum quidem ab quas aspernatur facilis similique optio?
+  We take pride in our commitment to quality and innovation. 
+  Each generator is meticulously crafted, combining durability with modern design to meet the diverse needs of our customers. 
+  Our dedicated team is here to guide you through every step,
+  from selecting the right model for your requirements to providing ongoing support.
                 </p>
                 <div className="group">
 

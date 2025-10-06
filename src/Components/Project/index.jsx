@@ -1,18 +1,19 @@
-import React, { useEffect, useState } from 'react'
-import "./Project.css"
-import { projects } from '../../data'
-import ProjectNavigation from "./ProjectNavigation"
+import React, { useEffect, useState } from 'react';
+import "./Project.css";
+import { projects } from '../../data';
+import ProjectNavigation from "./ProjectNavigation";
 
 const Project = () => {
-    const [activeProjects,setActiveProjects] = useState(projects);
-    const [load,setLoad] = useState(false);
+    const [activeProjects, setActiveProjects] = useState(projects);
+    const [load, setLoad] = useState(false);
 
-    useEffect(()=>{
+    useEffect(() => {
         setLoad(true);
-        setTimeout(()=>{
+        setTimeout(() => {
             setLoad(false);
-        },[600])
-    })
+        }, 600);
+    }, []); // Added dependency array to avoid infinite loop
+
     const getTabs = () => {
         const tabs = ["All"];
         projects.forEach((item) => {
@@ -21,7 +22,8 @@ const Project = () => {
             }
         });
         return tabs;
-    }
+    };
+
     const setProjects = (value) => {
         if (value === "All") {
             setActiveProjects(projects);
@@ -29,7 +31,8 @@ const Project = () => {
             const new_projects = projects.filter((item) => item.category === value);
             setActiveProjects(new_projects);
         }
-    }
+    };
+
     const [modalOpen, setModalOpen] = useState(false);
     const [modalImage, setModalImage] = useState(null);
 
@@ -37,6 +40,7 @@ const Project = () => {
         setModalImage(img);
         setModalOpen(true);
     };
+
     const closeModal = () => {
         setModalOpen(false);
         setModalImage(null);
@@ -52,7 +56,7 @@ const Project = () => {
                 />
                 <div className="project_container">
                     {activeProjects.map((project, index) => (
-                        <div className={`project_card} ${load ? `zoom_in`: ''}`} key={index}>
+                        <div className={`project_card ${load ? `zoom_in` : ''}`} key={index}>
                             <div className="image_container" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                                 <img src={project.image} alt={project.title} />
                                 <button
@@ -77,7 +81,7 @@ const Project = () => {
                 )}
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default Project
+export default Project;

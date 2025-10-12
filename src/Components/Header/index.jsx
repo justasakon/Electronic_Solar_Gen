@@ -13,11 +13,10 @@ const Header = () => {
       <div className="container full_height blur-effect">
         <div className='column'>
             <h1 className='title'>
-                IMAGO-DEL <span className='g-text'>ELECTRONIC SOLAR GENERATORS</span>
+                IMAGO-DEL <span className='g-text'>SOLAR GENERATORS</span>
             </h1>
             <p className="text_muted">
-                At IMAGO-DEL, we specialize in advanced solar solutions that empower you to harness the power of renewable energy. Our premium solar panels and electronic generators are designed for efficiency and reliability, providing you with sustainable energy options that lower your bills and reduce your carbon footprint. Embrace a smarter, greener future with us—explore our innovative products today.
-
+               Imago-del Solar Storage is a cameroon-based enterprises located in Bamenda, specializing in the sales of solar generators and solar panels. Our mission is to provide sustainable energy solutions to a diverse climate, including fatory owners, individuals,churches and bars, there by promoting renewable energy usage accross the region. With the increasing demand for reliable energy sources our business aims to capitalize on the growing trend for solar energy adoption. To facilitate this growth and expand our market reach, we are seeking investment or strategic partnerships that will enable us to enhance our product offering and establish a stronger presence in the renewable energy sector.
 
             </p>
             <div className="buttons_container">

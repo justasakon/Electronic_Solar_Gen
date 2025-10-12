@@ -1,9 +1,9 @@
-import { IoCallOutline,IoLocationOutline } from "react-icons/io5";
+import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
 import { MdOutlineAlternateEmail } from "react-icons/md";
-import { FaYoutube,FaInstagram } from "react-icons/fa";
-import { CiLinkedin ,CiFacebook} from "react-icons/ci";
-import { profile2, profile3,profile4,profile5,
-         panel,gen2,gen3,batteries, member1, member2, member3, member4} from "./assets";
+import { FaYoutube, FaInstagram, FaWhatsapp } from "react-icons/fa"; // Added FaWhatsapp
+import { CiLinkedin, CiFacebook } from "react-icons/ci";
+import { profile2, profile3, profile4, profile5,
+         panel, gen2, gen3, batteries, prof1, member2, member3, member4 } from "./assets";
 
 export const navTabs = [
     {name:"Home",id:'header'},
@@ -52,11 +52,12 @@ Maximize the potential of your renewable energy systems with our advanced batter
 
 export const teams = [
   {
-    name:"Oluoma James",
+    name:"Dingha Terrence",
     title:"Technician",
-    profile:member1,
+    profile:prof1,
     social:[
       {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
+       {name:"Facebook",icon:<FaWhatsapp/>,url:"http://WhatsApp.com"},
       {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
       {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
     ]
@@ -67,6 +68,7 @@ export const teams = [
     profile:member2,
     social:[
       {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
+       {name:"Facebook",icon:<FaWhatsapp/>,url:"http://WhatsApp.com"},
       {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
       {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
     ]
@@ -77,6 +79,7 @@ export const teams = [
     profile:member3,
     social:[
       {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
+       {name:"Facebook",icon:<FaWhatsapp/>,url:"http://WhatsApp.com"},
       {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
       {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
     ]
@@ -87,6 +90,7 @@ export const teams = [
     profile:member4,
     social:[
       {name:"Facebook",icon:<CiFacebook/>,url:"http://facebook.com"},
+      {name:"Facebook",icon:<FaWhatsapp/>,url:"http://WhatsApp.com"},
       {name:"LinkedIn",icon:<CiLinkedin/>,url:"http://linkedin.com"},
       {name:"Instagram",icon:<FaInstagram/>,url:"http://instagram.com"},
     ]

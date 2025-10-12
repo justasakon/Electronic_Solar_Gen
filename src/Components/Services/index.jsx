@@ -34,7 +34,7 @@ const Services = () => {
                     {service.description}
                   </p>
                 </div>
-                <div className="buttons_container">
+                <div className="btn btn_primary btn-view-image">
                   <button className="btn">Read More</button>
                   <Link to='contact' className='btn btn_primary'>Get Started</Link>
                   <button 

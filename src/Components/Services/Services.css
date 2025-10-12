@@ -78,4 +78,7 @@
        grid-template-columns: 100%;
        
   }
+  .btn-view-image {
+        display: none;
+    }
 }

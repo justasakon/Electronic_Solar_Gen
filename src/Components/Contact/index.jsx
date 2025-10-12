@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="form_top">
             <h3 className="sub_title g_text">Keep In Touch</h3>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ea blanditiis excepturi vitae molestiae, reprehenderit iste. Ducimus culpa est iusto optio doloremque! Rem tempora nemo architecto mollitia omnis, quod dolores.
+              
             </p>
           </div>
           <div className="form_middle">
